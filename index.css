@@ -1,0 +1,22 @@
+/* body {
+  background-color: rgb(32, 33, 36);
+  color: rgb(255, 255, 255);
+} */
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.middle {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.bottom-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
