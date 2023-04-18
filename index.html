@@ -2,40 +2,32 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Google Clone</title>
     <link rel="stylesheet" type="text/css" href="index.css" />
   </head>
   <body>
-    <!-- Main page -->
-    <div>
-      <!-- Top bar -->
-      <header class="top-bar">
-        <a class="topLeftElements" href="#">About</a>
-        <a class="topLeftElements" href="#">Store</a>
-        <a class="topRightElements" href="#">Gmail</a>
-        <a class="topRightElements" href="#">Images</a>
-      </header>
-      <!-- Middle page -->
-      <div class="middle">
-        <form>
-          <a class="google-title">Google</a>
-          <input type="text" name="search" />
-          <button type="submit">Google Search</button>
-          <button type="button">I'm Feeling Lucky</button>
-        </form>
-      </div>
-      <!-- Bottom bar -->
-      <footer class="bottom-bar">
-        <a class="bottomLeftElements" href="#">Advertising</a>
-        <a class="bottomLeftElements" href="#">Business</a>
-        <a class="bottomLeftElements" href="#">How Search works</a>
-        <a class="middleText" href="#">Carbo Neutral since 2007</a>
-        <a class="bottomRightElements" href="#">Privacy</a>
-        <a class="bottomRightElements" href="#">Terms</a>
-        <a class="bottomRightElements" href="#">Settings</a>
-      </footer>
-    </div>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Store</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Gmail</a></li>
+          <li><a href="#">images</a></li>
+          <li class="menu-bg">
+            <img class="menu-button" src="images/menu.png" alt="menu button" />
+          </li>
+          <li class="profile-pic-bg">
+            <img
+              class="profile-pic"
+              src="images/profile-pic.png"
+              alt="profile pic"
+            />
+          </li>
+        </ul>
+      </nav>
+    </header>
   </body>
 </html>
