@@ -7,10 +7,19 @@
   background-color: rgb(32, 33, 36);
 }
 
+body {
+  height: 100vh;
+  overflow: hidden;
+  font-family: "Product", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 20px 10px;
+  padding: 20px 14px;
   height: 60px;
 }
 
@@ -41,6 +50,7 @@ ul a:hover {
 
 .menu-bg:hover {
   background-color: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
 }
 
 .menu-button {
@@ -56,6 +66,7 @@ ul a:hover {
 
 .profile-pic-bg:hover {
   background-color: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
 }
 
 .profile-pic {
@@ -64,4 +75,88 @@ ul a:hover {
   border-radius: 50%;
   background-color: black;
   margin-top: 3px;
+}
+
+.top-right-text {
+  color: rgb(255, 255, 255);
+  font-size: 0.9rem;
+}
+
+.search-wrapper {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  position: relative;
+  margin-top: 30px;
+}
+
+input {
+  width: 500px;
+  height: 60px;
+  padding-left: 50px;
+  font-size: 1.2rem;
+  border-radius: 20px;
+  border: 1px solid #747474;
+}
+
+input:hover {
+  box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.3);
+  background-color: rgb(48, 49, 52);
+  border-color: rgb(48, 49, 52);
+}
+
+input:focus {
+  outline: none;
+}
+
+.search {
+  width: 20px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.search-by-image {
+  width: 30px;
+  position: absolute;
+  top: 10px;
+  left: 455px;
+}
+
+.logo {
+  font-size: 65px;
+  color: rgb(255, 255, 255);
+}
+
+.button {
+  width: 350px;
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+button {
+  border: 1px solid transparent;
+  padding: 8px 12px;
+  background-color: rgb(48, 49, 52);
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+}
+
+button:hover {
+  border: 1px solid #727272;
+  box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+footer {
+  background-color: rgb(23, 23, 23);
+  display: flex;
+  justify-content: space-between;
 }
