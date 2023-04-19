@@ -4,7 +4,6 @@
   box-sizing: border-box;
   font-size: 14px;
   color: #bebebe;
-  background-color: rgb(32, 33, 36);
 }
 
 body {
@@ -14,6 +13,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-color: rgb(32, 33, 36);
 }
 
 nav {
@@ -101,6 +101,7 @@ input {
   font-size: 1.2rem;
   border-radius: 20px;
   border: 1px solid #747474;
+  background-color: rgb(32, 33, 36);
 }
 
 input:hover {
@@ -147,6 +148,7 @@ button {
   background-color: rgb(48, 49, 52);
   border-radius: 5px;
   color: rgb(255, 255, 255);
+  margin-bottom: 10px;
 }
 
 button:hover {
@@ -155,8 +157,19 @@ button:hover {
   cursor: pointer;
 }
 
+.day-link {
+  color: rgb(121, 184, 255);
+}
+
+.day-link:hover {
+  text-decoration: underline;
+}
+
 footer {
+  width: 100%;
   background-color: rgb(23, 23, 23);
   display: flex;
   justify-content: space-between;
+  padding: 5px 20px;
+  height: 45px;
 }
